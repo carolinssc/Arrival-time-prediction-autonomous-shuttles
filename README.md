@@ -22,7 +22,7 @@ XGBoost:
 
 
 Random Forest: 
-| City | n_estimators    | min_samples_split    |  min_samples_leaf| max_depth | bootstrap  |
+| City | n estimators    | min samples split    |  min samples leaf| max depth | bootstrap  |
 | :---:   | :---:           | :---: |        :---: |       :---: |      :---: | 
 | Linköping |   287  | 5   | 2  | 20  |True |
 | Tampere  |   377   | 10  |  4  | 10 |True 
@@ -43,7 +43,7 @@ XGBoost:
 
 
 Random Forest: 
-| City | n_estimators    | min_samples_split    |  min_samples_leaf| max_depth | bootstrap  |
+| City | n estimators    | min samples_split    |  min samples_leaf| max depth | bootstrap  |
 | :---:   | :---:           | :---: |        :---: |       :---: |      :---: | 
 | Linköping |   491  | 5   | 4  | 10  |True |
 | Tampere  |   463   | 10  | 2  | 30 |True 
