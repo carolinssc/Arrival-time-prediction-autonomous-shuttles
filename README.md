@@ -5,3 +5,12 @@ Official implementation of Estimated Time of Arrival in Autonomous Shuttle Servi
 ## Contents
 
 * `src/baselines` : Training scripts for the the Mean regressor, Lag Model, Linear regression, Random forest and XGboost
+
+
+## Hyperparameter settings 
+
+#XGBoost 
+
+| City | num_depth    | #2    |
+| :---:   | :---: | :---: |
+| Linköping |    |    |
