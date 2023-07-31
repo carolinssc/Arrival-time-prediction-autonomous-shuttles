@@ -28,5 +28,5 @@ Random Forest:
 | Tampere  |   377   | 10  |  4  | 10 |True 
 | Rouen |   491  | 5   | 4  | 10  |True |
 | Madrid |   214   |  5   | 4  | 60  |True |
-| Graz |   197   | 2  | 4  | 400  |True|
+| Graz |   197   | 2  | 4  | 40  |True|
 
