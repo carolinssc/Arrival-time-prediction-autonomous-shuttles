@@ -9,8 +9,9 @@ Official implementation of Estimated Time of Arrival in Autonomous Shuttle Servi
 
 ## Hyperparameter settings 
 
-### XGBoost 
+### Dwell time 
 
-| City | num_depth    | #2    |
-| :---:   | :---: | :---: |
-| Linköping |    |    |
+XGBoost: 
+| City | learning rate    | max depth    |  n estimators| reg lambda | subsample  |
+| :---:   | :---:           | :---: |        :---: |       :---: |      :---: |
+| Linköping |   0.1   | 6   | 100  | 2  |0.9 |
