@@ -30,3 +30,24 @@ Random Forest:
 | Madrid |   214   |  5   | 4  | 60  |True |
 | Graz |   197   | 2  | 4  | 40  |True|
 
+### Run time 
+
+XGBoost: 
+| City | learning rate    | max depth    |  n estimators| reg lambda | subsample  | gamma |
+| :---:   | :---:           | :---: |        :---: |       :---: |      :---: |  :---: |
+| Linköping |   0.1   | 6   | 60  | 1, |0.9 | 0.5 |
+| Tampere  |   0.1   | 6   | 50  | 2  |0.9 |0 |
+| Rouen |   0.1   | 4   | 50  | 5  |0.8 |  0.0 |
+| Madrid |   0.1   | 4   | 50  | 1  |0.8 |  0 |
+| Graz |   0.3   | 1  | 20  | 2  |0.8 |0.0 |
+
+
+Random Forest: 
+| City | n_estimators    | min_samples_split    |  min_samples_leaf| max_depth | bootstrap  |
+| :---:   | :---:           | :---: |        :---: |       :---: |      :---: | 
+| Linköping |   491  | 5   | 4  | 10  |True |
+| Tampere  |   463   | 10  | 2  | 30 |True 
+| Rouen |   123  | 10   | 4  | 10  |True |
+| Madrid |   108   |  10   |  1  | 10  |True |
+| Graz |   197   | 2  | 4  | 40  |True|
+
