@@ -9,7 +9,7 @@ Official implementation of Estimated Time of Arrival in Autonomous Shuttle Servi
 
 ## Hyperparameter settings 
 
-# XGBoost 
+### XGBoost 
 
 | City | num_depth    | #2    |
 | :---:   | :---: | :---: |
