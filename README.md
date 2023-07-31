@@ -4,4 +4,4 @@ Official implementation of Estimated Time of Arrival in Autonomous Shuttle Servi
 
 ## Contents
 
-* `src/baselines : Training script2 for the the Mean regressor, Lag Model, Linear regression, Random forest and XGboost
+* `src/baselines` : Training script2 for the the Mean regressor, Lag Model, Linear regression, Random forest and XGboost
