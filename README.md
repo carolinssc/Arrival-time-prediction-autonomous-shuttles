@@ -12,6 +12,10 @@ Official implementation of Estimated Time of Arrival in Autonomous Shuttle Servi
 ### Dwell time 
 
 XGBoost: 
-| City | learning rate    | max depth    |  n estimators| reg lambda | subsample  |
-| :---:   | :---:           | :---: |        :---: |       :---: |      :---: |
-| Linköping |   0.1   | 6   | 100  | 2  |0.9 |
+| City | learning rate    | max depth    |  n estimators| reg lambda | subsample  | gamma |
+| :---:   | :---:           | :---: |        :---: |       :---: |      :---: |  :---: |
+| Linköping |   0.1   | 6   | 100  | 2  |0.9 | 0 |
+| Tampere  |   0.03   | 6   | 80  | 5  |0.7 |0 |
+| Rouen |   0.1   | 6   | 60  | 2  |0.9 |  0.25 |
+| Madrid |   0.03   | 4   | 40  | 5  |0.9 |  0 |
+| Graz |   0.1   | 20  | 30  | 2  |0.8 |0.1 |
