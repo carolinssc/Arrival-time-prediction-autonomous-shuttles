@@ -7,7 +7,7 @@ Official implementation of Estimated Time of Arrival in Autonomous Shuttle Servi
 * `src/baselines` : Training scripts for the the Mean Regressor, Lag Model, Linear Regression, Random Forest and XGBoost
 
 
-## Hyperparameter settings 
+## Baseline hyperparameter settings 
 
 ### Dwell time 
 
@@ -51,3 +51,24 @@ Random Forest:
 | Madrid |   108   |  10   |  1  | 10  |True |
 | Graz |   197   | 2  | 4  | 40  |True|
 
+## Deep learning model hyperparameters
+General hyperparams:
+    Batch Size: 1024
+    Lr: 0.0003
+    L2 regularization: 0.00005
+    Epochs: 200
+    Dropout: 0.1
+    Latent dimensions: 32
+
+For GCN based models:
+    Aggregation function: Sum
+
+Architecture:
+See src/models/gcn_model.py
+
+For RF-GCN:
+Set flag data.rf_remove_zero_obs to True to train RF classifier in the DataModule.
+The predicted zeroes (TP and FN) are then removed from the data in the DataModule that is used for trainin the GCN.
+To calculate the MAE and RMSE on the full test set utilize a DataModule with data.rf_remove_zero_obs to False and use trained module on all of the data.
+Afterwards overwrite classified zeroes.
+See e.g. trained_models/LINKOPING/gcn_rf/res_model_gcn_rf.ipynb for code.

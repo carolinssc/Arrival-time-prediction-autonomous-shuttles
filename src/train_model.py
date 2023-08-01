@@ -8,17 +8,7 @@ import torch
 
 import wandb
 from data.datamodule import SHOWDataModule, Standardize
-from models.gcn_model import (
-    GCN_segments,
-    GCN_segments2,
-    MLP_segments,
-    NodeEncodedGCN,
-    NodeEncodedGCN_tt,
-    NodeEncodedGAT,
-    NodeEncodedGCN_1l,
-    NodeEncodedGCN_2l,
-    NodeEncodedGCN_3l,
-)
+from models.gcn_model import NodeEncodedGCN_1l
 from models.model_base_class import BaseModelClass
 from pytorch_lightning.callbacks import ModelCheckpoint
 

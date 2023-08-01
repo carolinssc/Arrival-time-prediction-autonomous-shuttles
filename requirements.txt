@@ -1,5 +1,5 @@
 branca==0.6.0
-Click==7.0
+Click==8.1
 fastapi==0.94.1
 folium==0.14.0
 geopy==2.0.0
@@ -17,4 +17,3 @@ requests==2.22.0
 scikit_learn==1.2.2
 setuptools==45.2.0
 tqdm==4.65.0
-wandb
