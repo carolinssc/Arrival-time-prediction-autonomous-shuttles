@@ -1,0 +1,7 @@
+name: classification_node_encoded_gcn
+model_parameters:
+  input_size: 27
+  output_size: 2
+  hidden_dims:
+    layer1: 32
+  aggregation_function: sum

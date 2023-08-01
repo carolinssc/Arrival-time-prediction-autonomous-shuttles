@@ -1,0 +1,7 @@
+name: node_encoded_gat
+model_parameters:
+  input_size: 16
+  hidden_dims:
+    layer1: 256
+    layer2: 64
+  aggregation_function: sum

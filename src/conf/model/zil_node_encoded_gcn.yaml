@@ -1,0 +1,9 @@
+name: zil_node_encoded_gcn
+model_parameters:
+  input_size: 27
+  hidden_dims:
+    layer1: 128
+  embed_dim: 10
+  embed_hidden: 32
+  aggregation_function: sum
+  empty_graph: False

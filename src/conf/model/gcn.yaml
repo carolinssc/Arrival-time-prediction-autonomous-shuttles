@@ -1,0 +1,9 @@
+name: gcn
+
+model_parameters:
+  input_size: 10
+  global_size: 7
+  hidden_dims:
+    layer1: 32
+    layer2: 32
+    layer3: 32

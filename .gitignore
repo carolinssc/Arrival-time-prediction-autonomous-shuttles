@@ -3,3 +3,5 @@ envs/
 data/processed/
 outputs/
 wandb_dir/
+
+*__pycache__/

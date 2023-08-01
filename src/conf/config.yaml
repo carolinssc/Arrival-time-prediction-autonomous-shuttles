@@ -1,0 +1,29 @@
+model: ???
+
+data:
+  site_name: ???
+  transform: maxmin
+  num_lags: 2
+  train_frac: 0.9
+  verbose_datamodule: True
+  time_kind: ???
+  rf_remove_zero_obs: False
+
+hyperparameters:
+  batch_size: 1024 # 512
+  lr: 0.0003 # 0.00003
+  weight_decay: 0.00005
+  drop_p: 0.1
+  n_epochs: 200
+  seed:
+  accelerator: gpu
+  which_gpu: 1
+  dev_run: False
+
+logging_parameters:
+  project_name: ???
+  print_every: 10 # might be unused TODO
+
+saving_parameters:
+  save_model: True
+  checkpoint_name: ne_gcn

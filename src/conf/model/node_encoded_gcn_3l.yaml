@@ -1,0 +1,23 @@
+name: node_encoded_gcn_3l
+model_parameters:
+  input_size: ???
+  hidden_dims:
+    layer1: 64
+  aggregation_function: sum
+  empty_graph: False
+# Input sizes
+# LINKOPING
+# 27 for dt
+# 28 for tt
+# GRAZ
+# 12 for dt
+# 16 for tt
+# TAMPERE
+# 18 for dt
+# 18 for tt
+# ROUEN
+# 17 for dt
+#
+# MADRID
+# 16 for dt
+#
