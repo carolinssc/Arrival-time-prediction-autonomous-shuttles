@@ -1,0 +1,2 @@
+test/error_mse,test/error_rmse,test/error_mape,test/error_mae,test/real_scale_loss,epoch,step
+312.5423889160156,17.678869247436523,10.33317756652832,13.684033393859863,13.68403148651123,0,0
